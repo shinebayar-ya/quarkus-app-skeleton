@@ -1,0 +1,26 @@
+{
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.tabSize": 2,
+  },
+  "editor.formatOnSave": true,
+  "java.format.settings.url": "src/main/resources/eclipse-format.xml",
+  "java.format.settings.profile": "Quarkus",
+  "java.saveActions.organizeImports": true,
+  "java.sources.organizeImports.starThreshold": 99,
+  "java.sources.organizeImports.staticStarThreshold": 99,
+  "java.cleanup.actions": [
+    "organizeImports"
+  ],
+  "java.completion.importOrder": [
+    "java",
+    "javax",
+    "jakarta",
+    "org",
+    "com"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

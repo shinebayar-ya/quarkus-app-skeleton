@@ -1,0 +1,34 @@
+# Maven build artifacts
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE-specific files
+/.idea/
+/*.iml
+# /.vscode/ # Uncomment if you use VSCode
+/*.swp
+
+# Quarkus dev mode temporary files
+/.quarkus/
+
+# Generated configuration
+src/main/resources/application.properties.example
+src/main/resources/application.yaml.example
+
+# Environment variables
+/.env
+
+# Temporary files
+/tmp/
+
+# Localstack generated files
+/localstack/
+
+# Documentation
+/docs/
+
+# Log files
+logs/
+
+# SQL queries
+sql/
